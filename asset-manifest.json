@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/yourpersonalshop/static/css/main.61d0a6bd.chunk.css",
+    "main.js": "/yourpersonalshop/static/js/main.4e898502.chunk.js",
+    "main.js.map": "/yourpersonalshop/static/js/main.4e898502.chunk.js.map",
+    "runtime-main.js": "/yourpersonalshop/static/js/runtime-main.a7e82dc7.js",
+    "runtime-main.js.map": "/yourpersonalshop/static/js/runtime-main.a7e82dc7.js.map",
+    "static/js/2.ad383b85.chunk.js": "/yourpersonalshop/static/js/2.ad383b85.chunk.js",
+    "static/js/2.ad383b85.chunk.js.map": "/yourpersonalshop/static/js/2.ad383b85.chunk.js.map",
+    "index.html": "/yourpersonalshop/index.html",
+    "static/css/main.61d0a6bd.chunk.css.map": "/yourpersonalshop/static/css/main.61d0a6bd.chunk.css.map",
+    "static/js/2.ad383b85.chunk.js.LICENSE.txt": "/yourpersonalshop/static/js/2.ad383b85.chunk.js.LICENSE.txt",
+    "static/media/background.9553bccf.svg": "/yourpersonalshop/static/media/background.9553bccf.svg",
+    "static/media/svg_1.96c46986.svg": "/yourpersonalshop/static/media/svg_1.96c46986.svg",
+    "static/media/svg_2.96fd3d18.svg": "/yourpersonalshop/static/media/svg_2.96fd3d18.svg",
+    "static/media/svg_3.d6192a70.svg": "/yourpersonalshop/static/media/svg_3.d6192a70.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7e82dc7.js",
+    "static/js/2.ad383b85.chunk.js",
+    "static/css/main.61d0a6bd.chunk.css",
+    "static/js/main.4e898502.chunk.js"
+  ]
+}
