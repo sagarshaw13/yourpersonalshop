@@ -1,0 +1,335 @@
+0 verbose cli [ '/usr/bin/node',
+0 verbose cli   '/usr/local/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '-g',
+0 verbose cli   'create-react-app' ]
+1 info using npm@7.15.1
+2 info using node@v10.19.0
+3 timing npm:load:whichnode Completed in 4ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:/home/sagar_2001/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 3ms
+16 timing config:load:setEnvs Completed in 2ms
+17 timing config:load Completed in 25ms
+18 timing npm:load:configload Completed in 25ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing npm:load:setupLog Completed in 4ms
+21 timing npm:load:cleanupLog Completed in 5ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 0ms
+24 timing npm:load Completed in 41ms
+25 timing config:load:flatten Completed in 6ms
+26 timing arborist:ctor Completed in 2ms
+27 timing idealTree:init Completed in 22ms
+28 timing idealTree:userRequests Completed in 6ms
+29 silly idealTree buildDeps
+30 silly fetch manifest create-react-app@*
+31 http fetch GET 200 https://registry.npmjs.org/create-react-app 3801ms
+32 silly placeDep ROOT create-react-app@4.0.3 Symbol(OK) for:  want: *
+33 silly fetch manifest chalk@4.1.0
+34 silly fetch manifest commander@4.1.1
+35 silly fetch manifest cross-spawn@7.0.3
+36 silly fetch manifest envinfo@7.7.3
+37 silly fetch manifest fs-extra@9.0.1
+38 silly fetch manifest hyperquest@2.1.3
+39 silly fetch manifest prompts@2.4.0
+40 silly fetch manifest semver@7.3.2
+41 silly fetch manifest tar-pack@3.4.1
+42 silly fetch manifest tmp@0.2.1
+43 silly fetch manifest validate-npm-package-name@3.0.0
+44 http fetch GET 200 https://registry.npmjs.org/envinfo 2995ms
+45 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name 3009ms
+46 http fetch GET 200 https://registry.npmjs.org/hyperquest 3016ms
+47 http fetch GET 304 https://registry.npmjs.org/prompts 3024ms (from cache)
+48 http fetch GET 304 https://registry.npmjs.org/chalk 3033ms (from cache)
+49 http fetch GET 200 https://registry.npmjs.org/tar-pack 3485ms
+50 http fetch GET 304 https://registry.npmjs.org/commander 3497ms (from cache)
+51 http fetch GET 200 https://registry.npmjs.org/tmp 3620ms
+52 http fetch GET 304 https://registry.npmjs.org/cross-spawn 3637ms (from cache)
+53 http fetch GET 304 https://registry.npmjs.org/fs-extra 3637ms (from cache)
+54 http fetch GET 304 https://registry.npmjs.org/semver 3638ms (from cache)
+55 timing idealTree:#root Completed in 7482ms
+56 silly placeDep node_modules/create-react-app chalk@4.1.0 Symbol(OK) for: create-react-app@4.0.3 want: 4.1.0
+57 silly placeDep node_modules/create-react-app commander@4.1.1 Symbol(OK) for: create-react-app@4.0.3 want: 4.1.1
+58 silly placeDep node_modules/create-react-app cross-spawn@7.0.3 Symbol(OK) for: create-react-app@4.0.3 want: 7.0.3
+59 silly placeDep node_modules/create-react-app envinfo@7.7.3 Symbol(OK) for: create-react-app@4.0.3 want: 7.7.3
+60 silly placeDep node_modules/create-react-app fs-extra@9.0.1 Symbol(OK) for: create-react-app@4.0.3 want: 9.0.1
+61 silly placeDep node_modules/create-react-app hyperquest@2.1.3 Symbol(OK) for: create-react-app@4.0.3 want: 2.1.3
+62 silly placeDep node_modules/create-react-app prompts@2.4.0 Symbol(OK) for: create-react-app@4.0.3 want: 2.4.0
+63 silly placeDep node_modules/create-react-app semver@7.3.2 Symbol(OK) for: create-react-app@4.0.3 want: 7.3.2
+64 silly placeDep node_modules/create-react-app tar-pack@3.4.1 Symbol(OK) for: create-react-app@4.0.3 want: 3.4.1
+65 silly placeDep node_modules/create-react-app tmp@0.2.1 Symbol(OK) for: create-react-app@4.0.3 want: 0.2.1
+66 silly placeDep node_modules/create-react-app validate-npm-package-name@3.0.0 Symbol(OK) for: create-react-app@4.0.3 want: 3.0.0
+67 silly fetch manifest ansi-styles@^4.1.0
+68 silly fetch manifest supports-color@^7.1.0
+69 silly fetch manifest path-key@^3.1.0
+70 silly fetch manifest shebang-command@^2.0.0
+71 silly fetch manifest which@^2.0.1
+72 silly fetch manifest at-least-node@^1.0.0
+73 silly fetch manifest graceful-fs@^4.2.0
+74 silly fetch manifest jsonfile@^6.0.1
+75 silly fetch manifest universalify@^1.0.0
+76 silly fetch manifest buffer-from@^0.1.1
+77 silly fetch manifest duplexer2@~0.0.2
+78 silly fetch manifest through2@~0.6.3
+79 silly fetch manifest kleur@^3.0.3
+80 silly fetch manifest sisteransi@^1.0.5
+81 silly fetch manifest debug@^2.2.0
+82 silly fetch manifest fstream@^1.0.10
+83 silly fetch manifest fstream-ignore@^1.0.5
+84 silly fetch manifest once@^1.3.3
+85 silly fetch manifest readable-stream@^2.1.4
+86 silly fetch manifest rimraf@^2.5.1
+87 silly fetch manifest tar@^2.2.1
+88 silly fetch manifest uid-number@^0.0.6
+89 silly fetch manifest rimraf@^3.0.0
+90 silly fetch manifest builtins@^1.0.3
+91 http fetch GET 200 https://registry.npmjs.org/duplexer2 402ms
+92 http fetch GET 200 https://registry.npmjs.org/fstream-ignore 500ms
+93 http fetch GET 200 https://registry.npmjs.org/uid-number 499ms
+94 http fetch GET 200 https://registry.npmjs.org/fstream 607ms
+95 http fetch GET 200 https://registry.npmjs.org/builtins 602ms
+96 http fetch GET 304 https://registry.npmjs.org/graceful-fs 626ms (from cache)
+97 http fetch GET 304 https://registry.npmjs.org/at-least-node 650ms (from cache)
+98 http fetch GET 304 https://registry.npmjs.org/shebang-command 657ms (from cache)
+99 http fetch GET 304 https://registry.npmjs.org/universalify 734ms (from cache)
+100 http fetch GET 304 https://registry.npmjs.org/jsonfile 736ms (from cache)
+101 http fetch GET 304 https://registry.npmjs.org/ansi-styles 745ms (from cache)
+102 http fetch GET 304 https://registry.npmjs.org/which 1064ms (from cache)
+103 http fetch GET 304 https://registry.npmjs.org/sisteransi 1176ms (from cache)
+104 http fetch GET 304 https://registry.npmjs.org/readable-stream 1180ms (from cache)
+105 http fetch GET 304 https://registry.npmjs.org/rimraf 1188ms (from cache)
+106 http fetch GET 304 https://registry.npmjs.org/path-key 1210ms (from cache)
+107 http fetch GET 304 https://registry.npmjs.org/supports-color 1296ms (from cache)
+108 http fetch GET 304 https://registry.npmjs.org/tar 1283ms (from cache)
+109 http fetch GET 304 https://registry.npmjs.org/kleur 1576ms (from cache)
+110 http fetch GET 304 https://registry.npmjs.org/debug 1577ms (from cache)
+111 http fetch GET 304 https://registry.npmjs.org/through2 1587ms (from cache)
+112 http fetch GET 304 https://registry.npmjs.org/buffer-from 1640ms (from cache)
+113 http fetch GET 304 https://registry.npmjs.org/once 4513ms (from cache)
+114 timing idealTree:node_modules/create-react-app Completed in 4563ms
+115 silly placeDep node_modules/create-react-app ansi-styles@4.3.0 Symbol(OK) for: chalk@4.1.0 want: ^4.1.0
+116 silly placeDep node_modules/create-react-app supports-color@7.2.0 Symbol(OK) for: chalk@4.1.0 want: ^7.1.0
+117 silly fetch manifest color-convert@^2.0.1
+118 silly fetch manifest has-flag@^4.0.0
+119 http fetch GET 304 https://registry.npmjs.org/color-convert 805ms (from cache)
+120 http fetch GET 304 https://registry.npmjs.org/has-flag 806ms (from cache)
+121 timing idealTree:node_modules/create-react-app/node_modules/chalk Completed in 814ms
+122 silly placeDep node_modules/create-react-app color-convert@2.0.1 Symbol(OK) for: ansi-styles@4.3.0 want: ^2.0.1
+123 silly fetch manifest color-name@~1.1.4
+124 http fetch GET 304 https://registry.npmjs.org/color-name 539ms (from cache)
+125 timing idealTree:node_modules/create-react-app/node_modules/ansi-styles Completed in 545ms
+126 silly placeDep node_modules/create-react-app color-name@1.1.4 Symbol(OK) for: color-convert@2.0.1 want: ~1.1.4
+127 timing idealTree:node_modules/create-react-app/node_modules/color-convert Completed in 10ms
+128 timing idealTree:node_modules/create-react-app/node_modules/color-name Completed in 0ms
+129 timing idealTree:node_modules/create-react-app/node_modules/commander Completed in 0ms
+130 silly placeDep node_modules/create-react-app path-key@3.1.1 Symbol(OK) for: cross-spawn@7.0.3 want: ^3.1.0
+131 silly placeDep node_modules/create-react-app shebang-command@2.0.0 Symbol(OK) for: cross-spawn@7.0.3 want: ^2.0.0
+132 silly placeDep node_modules/create-react-app which@2.0.2 Symbol(OK) for: cross-spawn@7.0.3 want: ^2.0.1
+133 silly fetch manifest shebang-regex@^3.0.0
+134 silly fetch manifest isexe@^2.0.0
+135 http fetch GET 304 https://registry.npmjs.org/shebang-regex 804ms (from cache)
+136 http fetch GET 304 https://registry.npmjs.org/isexe 848ms (from cache)
+137 timing idealTree:node_modules/create-react-app/node_modules/cross-spawn Completed in 860ms
+138 timing idealTree:node_modules/create-react-app/node_modules/envinfo Completed in 0ms
+139 silly placeDep node_modules/create-react-app at-least-node@1.0.0 Symbol(OK) for: fs-extra@9.0.1 want: ^1.0.0
+140 silly placeDep node_modules/create-react-app graceful-fs@4.2.6 Symbol(OK) for: fs-extra@9.0.1 want: ^4.2.0
+141 silly placeDep node_modules/create-react-app jsonfile@6.1.0 Symbol(OK) for: fs-extra@9.0.1 want: ^6.0.1
+142 silly placeDep node_modules/create-react-app universalify@1.0.0 Symbol(OK) for: fs-extra@9.0.1 want: ^1.0.0
+143 silly fetch manifest universalify@^2.0.0
+144 timing idealTree:node_modules/create-react-app/node_modules/fs-extra Completed in 26ms
+145 timing idealTree:node_modules/create-react-app/node_modules/at-least-node Completed in 0ms
+146 timing idealTree:node_modules/create-react-app/node_modules/graceful-fs Completed in 0ms
+147 silly placeDep node_modules/create-react-app buffer-from@0.1.2 Symbol(OK) for: hyperquest@2.1.3 want: ^0.1.1
+148 silly placeDep node_modules/create-react-app duplexer2@0.0.2 Symbol(OK) for: hyperquest@2.1.3 want: ~0.0.2
+149 silly placeDep node_modules/create-react-app through2@0.6.5 Symbol(OK) for: hyperquest@2.1.3 want: ~0.6.3
+150 silly fetch manifest readable-stream@~1.1.9
+151 silly fetch manifest readable-stream@>=1.0.33-1 <1.1.0-0
+152 silly fetch manifest xtend@>=4.0.0 <4.1.0-0
+153 http fetch GET 304 https://registry.npmjs.org/xtend 437ms (from cache)
+154 timing idealTree:node_modules/create-react-app/node_modules/hyperquest Completed in 450ms
+155 timing idealTree:node_modules/create-react-app/node_modules/buffer-from Completed in 0ms
+156 silly placeDep node_modules/create-react-app readable-stream@1.1.14 Symbol(OK) for: duplexer2@0.0.2 want: ~1.1.9
+157 silly fetch manifest core-util-is@~1.0.0
+158 silly fetch manifest isarray@0.0.1
+159 silly fetch manifest string_decoder@~0.10.x
+160 silly fetch manifest inherits@~2.0.1
+161 http fetch GET 304 https://registry.npmjs.org/core-util-is 609ms (from cache)
+162 http fetch GET 304 https://registry.npmjs.org/inherits 1021ms (from cache)
+163 http fetch GET 304 https://registry.npmjs.org/string_decoder 1026ms (from cache)
+164 http fetch GET 304 https://registry.npmjs.org/isarray 1031ms (from cache)
+165 timing idealTree:node_modules/create-react-app/node_modules/duplexer2 Completed in 1036ms
+166 silly placeDep node_modules/create-react-app/node_modules/jsonfile universalify@2.0.0 Symbol(OK) for: jsonfile@6.1.0 want: ^2.0.0
+167 timing idealTree:node_modules/create-react-app/node_modules/jsonfile Completed in 4ms
+168 timing idealTree:node_modules/create-react-app/node_modules/path-key Completed in 0ms
+169 silly placeDep node_modules/create-react-app kleur@3.0.3 Symbol(OK) for: prompts@2.4.0 want: ^3.0.3
+170 silly placeDep node_modules/create-react-app sisteransi@1.0.5 Symbol(OK) for: prompts@2.4.0 want: ^1.0.5
+171 timing idealTree:node_modules/create-react-app/node_modules/prompts Completed in 4ms
+172 timing idealTree:node_modules/create-react-app/node_modules/kleur Completed in 1ms
+173 silly placeDep node_modules/create-react-app core-util-is@1.0.2 Symbol(OK) for: readable-stream@1.1.14 want: ~1.0.0
+174 silly placeDep node_modules/create-react-app inherits@2.0.4 Symbol(OK) for: readable-stream@1.1.14 want: ~2.0.1
+175 silly placeDep node_modules/create-react-app isarray@0.0.1 Symbol(OK) for: readable-stream@1.1.14 want: 0.0.1
+176 silly placeDep node_modules/create-react-app string_decoder@0.10.31 Symbol(OK) for: readable-stream@1.1.14 want: ~0.10.x
+177 timing idealTree:node_modules/create-react-app/node_modules/readable-stream Completed in 8ms
+178 timing idealTree:node_modules/create-react-app/node_modules/core-util-is Completed in 0ms
+179 timing idealTree:node_modules/create-react-app/node_modules/inherits Completed in 0ms
+180 timing idealTree:node_modules/create-react-app/node_modules/isarray Completed in 0ms
+181 timing idealTree:node_modules/create-react-app/node_modules/semver Completed in 0ms
+182 silly placeDep node_modules/create-react-app shebang-regex@3.0.0 Symbol(OK) for: shebang-command@2.0.0 want: ^3.0.0
+183 timing idealTree:node_modules/create-react-app/node_modules/shebang-command Completed in 2ms
+184 timing idealTree:node_modules/create-react-app/node_modules/shebang-regex Completed in 0ms
+185 timing idealTree:node_modules/create-react-app/node_modules/sisteransi Completed in 0ms
+186 timing idealTree:node_modules/create-react-app/node_modules/string_decoder Completed in 0ms
+187 silly placeDep node_modules/create-react-app has-flag@4.0.0 Symbol(OK) for: supports-color@7.2.0 want: ^4.0.0
+188 timing idealTree:node_modules/create-react-app/node_modules/supports-color Completed in 2ms
+189 timing idealTree:node_modules/create-react-app/node_modules/has-flag Completed in 0ms
+190 silly placeDep node_modules/create-react-app debug@2.6.9 Symbol(OK) for: tar-pack@3.4.1 want: ^2.2.0
+191 silly placeDep node_modules/create-react-app fstream@1.0.12 Symbol(OK) for: tar-pack@3.4.1 want: ^1.0.10
+192 silly placeDep node_modules/create-react-app fstream-ignore@1.0.5 Symbol(OK) for: tar-pack@3.4.1 want: ^1.0.5
+193 silly placeDep node_modules/create-react-app once@1.4.0 Symbol(OK) for: tar-pack@3.4.1 want: ^1.3.3
+194 silly placeDep node_modules/create-react-app/node_modules/tar-pack readable-stream@2.3.7 Symbol(OK) for: tar-pack@3.4.1 want: ^2.1.4
+195 silly placeDep node_modules/create-react-app rimraf@2.7.1 Symbol(OK) for: tar-pack@3.4.1 want: ^2.5.1
+196 silly placeDep node_modules/create-react-app tar@2.2.2 Symbol(OK) for: tar-pack@3.4.1 want: ^2.2.1
+197 silly placeDep node_modules/create-react-app uid-number@0.0.6 Symbol(OK) for: tar-pack@3.4.1 want: ^0.0.6
+198 silly fetch manifest ms@2.0.0
+199 silly fetch manifest mkdirp@>=0.5 0
+200 silly fetch manifest minimatch@^3.0.0
+201 silly fetch manifest wrappy@1
+202 silly fetch manifest isarray@~1.0.0
+203 silly fetch manifest process-nextick-args@~2.0.0
+204 silly fetch manifest safe-buffer@~5.1.1
+205 silly fetch manifest string_decoder@~1.1.1
+206 silly fetch manifest util-deprecate@~1.0.1
+207 silly fetch manifest glob@^7.1.3
+208 silly fetch manifest block-stream@*
+209 http fetch GET 200 https://registry.npmjs.org/block-stream 1385ms
+210 http fetch GET 304 https://registry.npmjs.org/mkdirp 1421ms (from cache)
+211 http fetch GET 304 https://registry.npmjs.org/ms 1439ms (from cache)
+212 http fetch GET 304 https://registry.npmjs.org/util-deprecate 1452ms (from cache)
+213 http fetch GET 304 https://registry.npmjs.org/minimatch 1458ms (from cache)
+214 http fetch GET 304 https://registry.npmjs.org/safe-buffer 1458ms (from cache)
+215 http fetch GET 304 https://registry.npmjs.org/process-nextick-args 1461ms (from cache)
+216 http fetch GET 304 https://registry.npmjs.org/glob 1459ms (from cache)
+217 http fetch GET 304 https://registry.npmjs.org/wrappy 1465ms (from cache)
+218 timing idealTree:node_modules/create-react-app/node_modules/tar-pack Completed in 1491ms
+219 silly placeDep node_modules/create-react-app ms@2.0.0 Symbol(OK) for: debug@2.6.9 want: 2.0.0
+220 timing idealTree:node_modules/create-react-app/node_modules/debug Completed in 8ms
+221 silly placeDep node_modules/create-react-app mkdirp@0.5.5 Symbol(OK) for: fstream@1.0.12 want: >=0.5 0
+222 silly fetch manifest minimist@^1.2.5
+223 http fetch GET 304 https://registry.npmjs.org/minimist 1296ms (from cache)
+224 timing idealTree:node_modules/create-react-app/node_modules/fstream Completed in 1301ms
+225 silly placeDep node_modules/create-react-app minimatch@3.0.4 Symbol(OK) for: fstream-ignore@1.0.5 want: ^3.0.0
+226 silly fetch manifest brace-expansion@^1.1.7
+227 http fetch GET 304 https://registry.npmjs.org/brace-expansion 698ms (from cache)
+228 timing idealTree:node_modules/create-react-app/node_modules/fstream-ignore Completed in 703ms
+229 silly placeDep node_modules/create-react-app brace-expansion@1.1.11 Symbol(OK) for: minimatch@3.0.4 want: ^1.1.7
+230 silly fetch manifest balanced-match@^1.0.0
+231 silly fetch manifest concat-map@0.0.1
+232 http fetch GET 304 https://registry.npmjs.org/concat-map 829ms (from cache)
+233 http fetch GET 304 https://registry.npmjs.org/balanced-match 832ms (from cache)
+234 timing idealTree:node_modules/create-react-app/node_modules/minimatch Completed in 835ms
+235 silly placeDep node_modules/create-react-app balanced-match@1.0.2 Symbol(OK) for: brace-expansion@1.1.11 want: ^1.0.0
+236 silly placeDep node_modules/create-react-app concat-map@0.0.1 Symbol(OK) for: brace-expansion@1.1.11 want: 0.0.1
+237 timing idealTree:node_modules/create-react-app/node_modules/brace-expansion Completed in 6ms
+238 timing idealTree:node_modules/create-react-app/node_modules/balanced-match Completed in 0ms
+239 timing idealTree:node_modules/create-react-app/node_modules/concat-map Completed in 0ms
+240 silly placeDep node_modules/create-react-app minimist@1.2.5 Symbol(OK) for: mkdirp@0.5.5 want: ^1.2.5
+241 timing idealTree:node_modules/create-react-app/node_modules/mkdirp Completed in 3ms
+242 timing idealTree:node_modules/create-react-app/node_modules/minimist Completed in 0ms
+243 timing idealTree:node_modules/create-react-app/node_modules/ms Completed in 0ms
+244 silly placeDep node_modules/create-react-app wrappy@1.0.2 Symbol(OK) for: once@1.4.0 want: 1
+245 timing idealTree:node_modules/create-react-app/node_modules/once Completed in 3ms
+246 silly placeDep node_modules/create-react-app glob@7.1.7 Symbol(OK) for: rimraf@2.7.1 want: ^7.1.3
+247 silly fetch manifest fs.realpath@^1.0.0
+248 silly fetch manifest inflight@^1.0.4
+249 silly fetch manifest path-is-absolute@^1.0.0
+250 http fetch GET 304 https://registry.npmjs.org/inflight 1179ms (from cache)
+251 http fetch GET 304 https://registry.npmjs.org/path-is-absolute 1180ms (from cache)
+252 http fetch GET 304 https://registry.npmjs.org/fs.realpath 1185ms (from cache)
+253 timing idealTree:node_modules/create-react-app/node_modules/rimraf Completed in 1191ms
+254 silly placeDep node_modules/create-react-app fs.realpath@1.0.0 Symbol(OK) for: glob@7.1.7 want: ^1.0.0
+255 silly placeDep node_modules/create-react-app inflight@1.0.6 Symbol(OK) for: glob@7.1.7 want: ^1.0.4
+256 silly placeDep node_modules/create-react-app path-is-absolute@1.0.1 Symbol(OK) for: glob@7.1.7 want: ^1.0.0
+257 timing idealTree:node_modules/create-react-app/node_modules/glob Completed in 7ms
+258 timing idealTree:node_modules/create-react-app/node_modules/fs.realpath Completed in 0ms
+259 timing idealTree:node_modules/create-react-app/node_modules/inflight Completed in 0ms
+260 timing idealTree:node_modules/create-react-app/node_modules/path-is-absolute Completed in 0ms
+261 silly placeDep node_modules/create-react-app block-stream@0.0.9 Symbol(OK) for: tar@2.2.2 want: *
+262 timing idealTree:node_modules/create-react-app/node_modules/tar Completed in 2ms
+263 timing idealTree:node_modules/create-react-app/node_modules/block-stream Completed in 0ms
+264 silly placeDep node_modules/create-react-app/node_modules/through2 readable-stream@1.0.34 Symbol(OK) for: through2@0.6.5 want: >=1.0.33-1 <1.1.0-0
+265 silly placeDep node_modules/create-react-app xtend@4.0.2 Symbol(OK) for: through2@0.6.5 want: >=4.0.0 <4.1.0-0
+266 timing idealTree:node_modules/create-react-app/node_modules/through2 Completed in 6ms
+267 silly placeDep node_modules/create-react-app/node_modules/tmp rimraf@3.0.2 Symbol(OK) for: tmp@0.2.1 want: ^3.0.0
+268 timing idealTree:node_modules/create-react-app/node_modules/tmp Completed in 4ms
+269 timing idealTree:node_modules/create-react-app/node_modules/uid-number Completed in 0ms
+270 timing idealTree:node_modules/create-react-app/node_modules/universalify Completed in 0ms
+271 silly placeDep node_modules/create-react-app builtins@1.0.3 Symbol(OK) for: validate-npm-package-name@3.0.0 want: ^1.0.3
+272 timing idealTree:node_modules/create-react-app/node_modules/validate-npm-package-name Completed in 3ms
+273 timing idealTree:node_modules/create-react-app/node_modules/builtins Completed in 0ms
+274 silly placeDep node_modules/create-react-app isexe@2.0.0 Symbol(OK) for: which@2.0.2 want: ^2.0.0
+275 timing idealTree:node_modules/create-react-app/node_modules/which Completed in 2ms
+276 timing idealTree:node_modules/create-react-app/node_modules/isexe Completed in 0ms
+277 timing idealTree:node_modules/create-react-app/node_modules/wrappy Completed in 0ms
+278 timing idealTree:node_modules/create-react-app/node_modules/xtend Completed in 0ms
+279 timing idealTree:node_modules/create-react-app/node_modules/jsonfile/node_modules/universalify Completed in 0ms
+280 silly placeDep node_modules/create-react-app/node_modules/tar-pack isarray@1.0.0 Symbol(OK) for: readable-stream@2.3.7 want: ~1.0.0
+281 silly placeDep node_modules/create-react-app process-nextick-args@2.0.1 Symbol(OK) for: readable-stream@2.3.7 want: ~2.0.0
+282 silly placeDep node_modules/create-react-app safe-buffer@5.1.2 Symbol(OK) for: readable-stream@2.3.7 want: ~5.1.1
+283 silly placeDep node_modules/create-react-app/node_modules/tar-pack string_decoder@1.1.1 Symbol(OK) for: readable-stream@2.3.7 want: ~1.1.1
+284 silly placeDep node_modules/create-react-app util-deprecate@1.0.2 Symbol(OK) for: readable-stream@2.3.7 want: ~1.0.1
+285 timing idealTree:node_modules/create-react-app/node_modules/tar-pack/node_modules/readable-stream Completed in 18ms
+286 timing idealTree:node_modules/create-react-app/node_modules/process-nextick-args Completed in 0ms
+287 timing idealTree:node_modules/create-react-app/node_modules/safe-buffer Completed in 0ms
+288 timing idealTree:node_modules/create-react-app/node_modules/util-deprecate Completed in 0ms
+289 timing idealTree:node_modules/create-react-app/node_modules/tar-pack/node_modules/isarray Completed in 0ms
+290 timing idealTree:node_modules/create-react-app/node_modules/tar-pack/node_modules/string_decoder Completed in 0ms
+291 timing idealTree:node_modules/create-react-app/node_modules/through2/node_modules/readable-stream Completed in 0ms
+292 timing idealTree:node_modules/create-react-app/node_modules/tmp/node_modules/rimraf Completed in 1ms
+293 timing idealTree:buildDeps Completed in 21548ms
+294 timing idealTree:fixDepFlags Completed in 5ms
+295 timing idealTree Completed in 21586ms
+296 timing reify:loadTrees Completed in 21775ms
+297 timing reify:diffTrees Completed in 19ms
+298 silly reify mark retired [ '/usr/local/lib/node_modules/create-react-app',
+298 silly reify   '/usr/local/bin/create-react-app' ]
+299 silly reify moves { '/usr/local/lib/node_modules/create-react-app': '/usr/local/lib/node_modules/.create-react-app-DgI96EzL',
+299 silly reify   '/usr/local/bin/create-react-app': '/usr/local/bin/.create-react-app-VuBppijc' }
+300 timing reify:rollback:retireShallow Completed in 5ms
+301 timing command:install Completed in 21841ms
+302 verbose stack Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/create-react-app' -> '/usr/local/lib/node_modules/.create-react-app-DgI96EzL'
+303 verbose cwd /home/sagar_2001
+304 verbose Linux 5.4.72-microsoft-standard-WSL2
+305 verbose argv "/usr/bin/node" "/usr/local/bin/npm" "install" "-g" "create-react-app"
+306 verbose node v10.19.0
+307 verbose npm  v7.15.1
+308 error code EACCES
+309 error syscall rename
+310 error path /usr/local/lib/node_modules/create-react-app
+311 error dest /usr/local/lib/node_modules/.create-react-app-DgI96EzL
+312 error errno -13
+313 error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/create-react-app' -> '/usr/local/lib/node_modules/.create-react-app-DgI96EzL'
+313 error  { [Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/create-react-app' -> '/usr/local/lib/node_modules/.create-react-app-DgI96EzL']
+313 error   stack:
+313 error    'Error: EACCES: permission denied, rename \'/usr/local/lib/node_modules/create-react-app\' -> \'/usr/local/lib/node_modules/.create-react-app-DgI96EzL\'',
+313 error   errno: -13,
+313 error   code: 'EACCES',
+313 error   syscall: 'rename',
+313 error   path: '/usr/local/lib/node_modules/create-react-app',
+313 error   dest: '/usr/local/lib/node_modules/.create-react-app-DgI96EzL' }
+314 error The operation was rejected by your operating system.
+314 error It is likely you do not have the permissions to access this file as the current user
+314 error
+314 error If you believe this might be a permissions issue, please double-check the
+314 error permissions of the file and its containing directories, or try running
+314 error the command again as root/Administrator.
+315 verbose exit -13
