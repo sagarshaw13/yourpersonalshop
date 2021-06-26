@@ -60,7 +60,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">dolla</SocialLogo>
+            <SocialLogo to="/">dukaan</SocialLogo>
             <WebsiteRights>
               dukaan © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
